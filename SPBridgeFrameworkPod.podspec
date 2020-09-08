@@ -93,8 +93,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "*.{framework}"
-  spec.exclude_files = "SPBridgeFramework/*"
+ # 静态库framework位置
+  spec.vendored_frameworks = "*.{framework}"
+  spec.source_files = "SPBridgeFramework/*"
 
   # spec.public_header_files = "Classes/**/*.h"
 
