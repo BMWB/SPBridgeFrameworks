@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
 
  # 静态库framework位置
   spec.vendored_frameworks = "*.{framework}"
-  spec.source_files = "SPBridgeFramework/*"
+  spec.source_files = "SPBridgeFramework/Classes/**/*"
 
   # spec.public_header_files = "Classes/**/*.h"
 
