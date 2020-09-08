@@ -1,0 +1,6 @@
+framework module SPBridgeFramework {
+  umbrella header "SPBridgeFramework.h"
+
+  export *
+  module * { export * }
+}
